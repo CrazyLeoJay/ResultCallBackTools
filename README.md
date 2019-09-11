@@ -2,6 +2,16 @@
 
 [![](https://jitpack.io/v/CrazyLeoJay/ResultCallBackTools.svg)](https://jitpack.io/#CrazyLeoJay/ResultCallBackTools)
 
+
+
+导入
+
+```groovy
+implementation 'com.github.CrazyLeoJay:ResultCallBackTools:0.0.3-dev'
+```
+
+
+
 回调监听，简化`startActivityForResult`和`requestPermissions`方法回调。
 
 正常使用：

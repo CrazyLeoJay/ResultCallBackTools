@@ -41,7 +41,7 @@ class ResultCallBackTools(fm: FragmentManager) {
         intent: Intent,
         requestCode: Int,
         options: Bundle? = null,
-        service: Service
+        service: OnActivityResultCallBack
     ) {
         register(requestCode, service)
         fragment.startActivityForResult(intent, requestCode, options)
@@ -56,7 +56,7 @@ class ResultCallBackTools(fm: FragmentManager) {
     fun registerRequestPermissions(
         requestCode: Int,
         permissions: Array<String>,
-        service: Service
+        service: OnPermissionsResultCallBack
     ) {
         register(requestCode, service)
         fragment.requestPermissions(permissions, requestCode)
